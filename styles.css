@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Inter:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --background-color: black;
+    --primary-color: #f75ebc;
+    --secondary-color: #d0f5ff;
+    --terciary-color: #ffcfec;
+    --quartenary-color: white;
+    --h1-typo: 'Berkshire Swash', serif;
+    --h2-typo: "sansita", sans-serif;
+    --Text-typo: "droid sans";
+}
+body{
+    background-color: var(--background-color);
+}
+/* Este media es para version movil */
+@media screen and (max-width: 767px) {
+    .logo {
+        width: 4.5em;
+    }
+    .boxlogo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav{
+        width: 100vw;
+        display: none;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    li{
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    .heroimage {
+        object-fit: cover;
+        width: 100vw;
+	    height: 400px;
+    }
+    h1{
+        font-family: var(--h1-typo);
+        font-size: 2rem;
+        color: white;
+    }
+    p{
+    font-family: var(--Text-typo)
+    }
+}
