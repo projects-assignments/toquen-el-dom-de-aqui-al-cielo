@@ -56,6 +56,8 @@ body{
         color: white;
     }
     p{
-    font-family: var(--Text-typo)
+    font-family: var(--Text-typo);
+    color: var(--quartenary-color);
+    
     }
 }
