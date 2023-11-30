@@ -1,4 +1,55 @@
-# Toquen el DOM
+
+# Proyecto Toquen el DOM
+### Descripción de proyecto TOQUEN EL DOM del Grupo 2, “DE AQUÍ AL CIELO” conformado por Belén A. Peral, Wilfredo Liñán, Laura Lo y Jose A. Pérez Rego.
+
+*La innovación se encuentra con la pasión por la música.*
+
+Como desarrolladores, quisimos crear una experiencia vibrante y accesible para todos.  Después de un trabajo de benchmarking, entendiendo quién era nuestro cliente, y desarrollando nuestro user card, pudimos definir una paleta de colores que evocara calma y amabilidad, para un enfoque amigable, junto a tonos que inspiraran armonía; perfectos para un ambiente propicio para el aprendizaje. Para crear un contraste llamativo, buscamos colores vivos que resaltaran lo emocionante que es aprender a tocar música.
+
+Las tipografías, sencillas y legibles, buscan tener un estilo más redondo, y fueron elegidas para una experiencia de lectura cómoda y amigable que inspire confianza.
+
+La importancia de lo visual nos llevó a crear un _hero image_ impactante: un músico, como cualquier usuario que entre a la plataforma, apasionado tocando la guitarra, que capta la atención de inmediato. Queríamos transmitir una sensación de novedad, actualidad y un toque _edgy_ para inspirar a los usuarios a unirse a esta experiencia musical única.
+
+Siempre respetando la identidad de nuestro cliente, buscamos innovar su propuesta asegurándole una plataforma duradera a través de las tendencias pasajeras.
+
+<!-- (AQUÍ VA EL LINK DEL DESPLIEGUE)
+(AQUÍ VA CAP. PANTALLA IMAGEN WEB REAL) -->
+
+
+## Figma
+Referencias, presentación, hoja de estilos,
+grises y colores mobile, grises y colores desktop.
+
+<!-- (AQUÍ VA LINK FIGMA)
+(AQUÍ VA CAP. PANTALLA FIGMA) -->
+
+
+## Herramientas utilizadas
+
+Jira, Figma, Visual Studio Code, Google Fonts, Git, GitHub, Canva, Unsplash, Google Meet, Animatiss, Vercel .
+<!-- (AQUÍ VA IMAGEN DE HERRAMIENTAS UTILIZADAS) -->
+
+## ¿Cómo instalar el proyecto?
+
+<!-- (AQUÍ VA LAS INSTRUCCIONES DE CÓMO INSTALAR Y EL LINK) -->
+
+## Equipo "DE AQUÍ AL CIELO"
+
+Laura López: Product Owner, Developer 
+Belén A: Scrum Master, Developer
+Jose Alb: Developer 
+Will L: Developer 
+(AQUÍ VA IMAGEN DE GRUPO)
+
+
+## Presentación de proyecto en Slides. 
+
+<!-- (Aquí va el link de la presentación Canva) -->
+<!-- Aquí va pantallazo de presentación canva -->
+
+
+
+<!-- # Toquen el DOM
 
 ## Descripción
 
@@ -98,6 +149,6 @@ Partiendo de una descripción de necesidades (maquetación) y de una interfaz de
 ### Recursos
 - [Página de inspiración 1](https://www.sessiontown.com/es)
 - [Página de inspiración 2](https://www.musicca.com/es/herramientas)
-- [Librería Keypress](https://dmauro.github.io/Keypress/)
+- [Librería Keypress](https://dmauro.github.io/Keypress/) -->
 
 
