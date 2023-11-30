@@ -1,6 +1,9 @@
 
-# Proyecto Toquen el DOM
-### Descripción de proyecto TOQUEN EL DOM del Grupo 2, “DE AQUÍ AL CIELO” conformado por Belén A. Peral, Wilfredo Liñán, Laura Lo y Jose A. Pérez Rego.
+##Descripción de proyecto TOQUEN EL DOM del Grupo 2, “DE AQUÍ AL CIELO” 
+
+###Conformado por Belén A. Peral, Wilfredo Liñán, Laura Lo y Jose A. Pérez Rego.
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/HN9r4YN/LOGO.png" alt="LOGO" border="0"></a>
 
 *La innovación se encuentra con la pasión por la música.*
 
@@ -20,14 +23,14 @@ Siempre respetando la identidad de nuestro cliente, buscamos innovar su propuest
 Referencias, presentación, hoja de estilos,
 grises y colores mobile, grises y colores desktop.
 
-<!-- (AQUÍ VA LINK FIGMA)
-(AQUÍ VA CAP. PANTALLA FIGMA) -->
+[FIGMA LINK](https://www.figma.com/file/nijqZ9YuEL7zmFRfRlFbcc/TOQUEN-EL-DOM-Grupo2?type=design&node-id=51%3A105&mode=design&t=CZ9ckP7b9Qllh6No-1)
+<img src="https://i.ibb.co/k1pS2Z7/FIGMA-CAPTURA.png" alt="FIGMA-CAPTURA" border="0">
 
 
 ## Herramientas utilizadas
 
 Jira, Figma, Visual Studio Code, Google Fonts, Git, GitHub, Canva, Unsplash, Google Meet, Animatiss, Vercel .
-<!-- (AQUÍ VA IMAGEN DE HERRAMIENTAS UTILIZADAS) -->
+<a href="https://ibb.co/DtGNRVW"><img src="https://i.ibb.co/bPHxKWm/wider.png" alt="wider" border="0"></a>
 
 ## ¿Cómo instalar el proyecto?
 
