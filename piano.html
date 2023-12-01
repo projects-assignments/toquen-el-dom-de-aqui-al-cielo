@@ -41,15 +41,41 @@
         <img src="ASSETS/pianista.png" alt="pianista" />
         <h3>Toca tus primeras teclas</h3>
         <!-- piano virtual -->
+        <div class="piano">
+          <div data-note="C" class="key white"></div>
+          <div data-note="Db" class="key black"></div>
+          <div data-note="D" class="key white"></div>
+          <div data-note="Eb" class="key black"></div>
+          <div data-note="E" class="key white"></div>
+          <div data-note="F" class="key white"></div>
+          <div data-note="Gb" class="key black"></div>
+          <div data-note="G" class="key white"></div>
+          <div data-note="Ab" class="key black"></div>
+          <div data-note="A" class="key white"></div>
+          <div data-note="Bb" class="key black"></div>
+          <div data-note="B" class="key white"></div>
+        </div>
+
+        <audio id="C" src="ASSETS/AUDIO PIANO/piano_C.mp3"></audio>
+        <audio id="Db" src="ASSETS/AUDIO PIANO/piano_C_sharp.mp3"></audio>
+        <audio id="D" src="ASSETS/AUDIO PIANO/piano_D.mp3"></audio>
+        <audio id="Eb" src="ASSETS/AUDIO PIANO/piano_D_sharp.mp3"></audio>
+        <audio id="E" src="ASSETS/AUDIO PIANO/piano_E.mp3"></audio>
+        <audio id="F" src="ASSETS/AUDIO PIANO/piano_F.mp3"></audio>
+        <audio id="Gb" src="ASSETS/AUDIO PIANO/piano_F_sharp.mp3"></audio>
+        <audio id="G" src="ASSETS/AUDIO PIANO/piano_G.mp3"></audio>
+        <audio id="Ab" src="ASSETS/AUDIO PIANO/piano_G_sharp.mp3"></audio>
+        <audio id="A" src="ASSETS/AUDIO PIANO/piano_A.mp3"></audio>
+        <audio id="Bb" src="ASSETS/AUDIO PIANO/piano_A_sharp.mp3"></audio>
+        <audio id="B" src="ASSETS/AUDIO PIANO/piano_B.mp3"></audio>
         <!-- piano virtual -->
 
         <!-- Pop up -->
         <div class="pop-up rotate-scale-up">
           <h2>Instrucciones de uso</h2>
           <p>
-            ¡Tu teclado está en Standard A440! Para hacer sonar el
-            instrumento sólo tienes que presionar encima de las
-            teclas
+            ¡Tu teclado está en Standard A440! Para hacer sonar el instrumento
+            sólo tienes que presionar encima de las teclas
           </p>
         </div>
       </section>
@@ -67,5 +93,6 @@
       <img src="ASSETS/rrss.png" alt="logorrss" />
       <img src="ASSETS/copyright.png" alt="copyright" />
     </footer>
+    <script src="piano.js"></script>
   </body>
 </html>

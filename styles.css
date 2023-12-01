@@ -21,7 +21,7 @@ body {
 }
 
 /* Menu navegacion desktop */
-.hamburger > div {
+/* .hamburger > div {
   width: 20px;
   border: 2px solid white;
   margin-bottom: 3px;
@@ -29,7 +29,7 @@ body {
 ​.hamburger {
   display: none;
   align-self: end;
-}
+} */
 /* Este media es para version movil */
 @media screen and (max-width: 767px) {
   /* CSS del header */
@@ -41,15 +41,9 @@ body {
     justify-content: center;
     align-items: center;
   }
-/* Esta es la version movil */
-  nav {
-    display: none;
-}
-.hamburger {
-    display: block;
-}
-  /* Aqui estilos de la barra de navegación */
-   .heroimage {
+  /* Esta es la version movil de la barra navegación */
+
+  .heroimage {
     object-fit: cover;
     width: 100vw;
     height: 400px;
@@ -191,6 +185,40 @@ body {
     margin: 1em 0;
   }
   /* CSS página piano */
+  /* CSS instrumento piano */
+  .piano {
+    display: flex;
+    width: 90vw;
+    margin-bottom: 2em;
+  }
+
+  .key {
+    height: calc(var(--width) * 4);
+    width: var(--width);
+  }
+
+  .white {
+    --width: 50px;
+    background-color: white;
+    border: 1px solid #333;
+  }
+
+  .white.active {
+    background-color: #ccc;
+  }
+
+  .black {
+    --width: 32px;
+    background-color: black;
+    margin-left: calc(var(--width) / -2);
+    margin-right: calc(var(--width) / -2);
+    z-index: 2;
+  }
+
+  .black.active {
+    background-color: #333;
+  }
+
   .pop-up {
     display: flex;
     flex-direction: column;
@@ -223,3 +251,35 @@ body {
     }
   }
 }
+
+/* CSS de desktop */
+/* .piano {
+  display: flex;
+}
+
+.key {
+  height: calc(var(--width) * 4);
+  width: var(--width);
+}
+
+.white {
+  --width: 100px;
+  background-color: white;
+  border: 1px solid #333;
+}
+
+.white.active {
+  background-color: #ccc;
+}
+
+.black {
+  --width: 60px;
+  background-color: black;
+  margin-left: calc(var(--width) / -2);
+  margin-right: calc(var(--width) / -2);
+  z-index: 2;
+}
+
+.black.active {
+  background-color: #333;
+} */
