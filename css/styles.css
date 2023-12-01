@@ -218,6 +218,41 @@ body {
   .black.active {
     background-color: #333;
   }
+  /* CSS página bajo */
+  /* CSS instrumento bajo */
+  .bajo {
+    display: flex;
+    width: 90vw;
+    margin-bottom: 2em;
+  }
+
+  .cuerda {
+    height: calc(var(--width) * 4);
+    width: var(--width);
+  }
+
+  .superior {
+    --width: 50px;
+    background-color: white;
+    border: 1px solid #333;
+  }
+
+  .superior.active {
+    background-color: #ccc;
+  }
+
+  .inferior {
+    --width: 32px;
+    background-color: black;
+    margin-left: calc(var(--width) / -2);
+    margin-right: calc(var(--width) / -2);
+    z-index: 2;
+  }
+
+  .inferior.active {
+    background-color: #333;
+  }
+
 
   .pop-up {
     display: flex;
