@@ -19,6 +19,17 @@
 body {
   background-color: var(--background-color);
 }
+
+/* Menu navegacion desktop */
+.hamburger > div {
+  width: 20px;
+  border: 2px solid white;
+  margin-bottom: 3px;
+}
+​.hamburger {
+  display: none;
+  align-self: end;
+}
 /* Este media es para version movil */
 @media screen and (max-width: 767px) {
   /* CSS del header */
@@ -30,24 +41,15 @@ body {
     justify-content: center;
     align-items: center;
   }
+/* Esta es la version movil */
   nav {
-    width: 100vw;
     display: none;
-  }
-  ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
-  li {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+}
+.hamburger {
     display: block;
-  }
-  .heroimage {
+}
+  /* Aqui estilos de la barra de navegación */
+   .heroimage {
     object-fit: cover;
     width: 100vw;
     height: 400px;
@@ -59,7 +61,7 @@ body {
     background-color: var(--primary-color);
     opacity: 25%;
     position: absolute;
-    top: 4.5em;
+    top: 9em;
     z-index: 1;
   }
   h1 {
@@ -96,115 +98,128 @@ body {
     color: var(--secondary-color);
     font-family: var(--Text-typo);
     text-decoration: none;
-}
-.address img:first-child{
+  }
+  .address img:first-child {
     width: 4em;
-}
+  }
 
-  footer{
+  footer {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap:2em;
+    gap: 2em;
   }
 
   /*CSS main*/
-section{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  margin: 3em 0;
-}
-section > img{
-  margin: 1em;
-  border: 2px solid var(--primary-color);
-  width: 90vw;
-  border-radius: 10px;
-  box-shadow: 2px 2px 25px 10px rgba(247, 94, 188, 0.2);
-} 
-button{
-  width: 8em;
-  height: 2em;
-  background-color: black;
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-}
-.pianorelative{
-  position: relative;
-}
+  section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 3em 0;
+  }
+  section > img {
+    margin: 1em;
+    border: 2px solid var(--primary-color);
+    width: 90vw;
+    border-radius: 10px;
+    box-shadow: 2px 2px 25px 10px rgba(247, 94, 188, 0.2);
+  }
+  button {
+    width: 8em;
+    height: 2em;
+    background-color: black;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+  }
+  .pianorelative {
+    position: relative;
+  }
 
-.pianoabsolute{
-  position:absolute;
-  top: 58em;
-}
+  .pianoabsolute {
+    position: absolute;
+    top: 58em;
+  }
 
-.guitarrelative{
-  position: relative;
-}
+  .guitarrelative {
+    position: relative;
+  }
 
-.guitarabsolute{
-  position:absolute;
-  top: 79em;
-}
+  .guitarabsolute {
+    position: absolute;
+    top: 79em;
+  }
 
-.bajorelative{
-  position: relative;
-}
+  .bajorelative {
+    position: relative;
+  }
 
-.bajoabsolute{
-  position:absolute;
-  top: 99.5em;
-}
+  .bajoabsolute {
+    position: absolute;
+    top: 99.5em;
+  }
 
-h2{
-  font-size: 2rem;
-  font-family: var(--h2-typo);
-  color: var(--primary-color);
-  text-align: center;
-}
+  h2 {
+    font-size: 2rem;
+    font-family: var(--h2-typo);
+    color: var(--primary-color);
+    text-align: center;
+  }
 
-.componentes > p{
-  font-size: 1.5rem;
-  color: var(--primary-color);
-  text-align: center;
-  border: 1px solid var(--primary-color);
-  padding: 0em 6em;
-  border-radius: 10px;
-}
-/* CSS About us */
-h3{
-  text-align: center;
-  color: var(--primary-color);
-  font-size: 1rem;
-  margin: 1em;
-}
-.text-about{
-  font-family: var(--Text-typo);
-  font-weight: lighter;
-  font-size: 0.75rem;
-  text-align: left;
-  padding: 0 3em;
-  margin: 1em 0;
-}
-/* CSS página piano */
-.pop-up {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid var(--primary-color);
-  box-shadow: 2px 2px 25px 10px rgba(247, 94, 188, 0.2);
-  width: 90vw;
-  border-radius: 10px;
-  padding: 1em;
-}
-/* ----------------------------------------------
+  .componentes > p {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    text-align: center;
+    border: 1px solid var(--primary-color);
+    padding: 0em 6em;
+    border-radius: 10px;
+  }
+  /* CSS About us */
+  h3 {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 1rem;
+    margin: 1em;
+  }
+  .text-about {
+    font-family: var(--Text-typo);
+    font-weight: lighter;
+    font-size: 0.75rem;
+    text-align: left;
+    padding: 0 3em;
+    margin: 1em 0;
+  }
+  /* CSS página piano */
+  .pop-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--primary-color);
+    box-shadow: 2px 2px 25px 10px rgba(247, 94, 188, 0.2);
+    width: 90vw;
+    border-radius: 10px;
+    padding: 1em;
+  }
+  /* ----------------------------------------------
   Generated by AnimatiSS
   Licensed under FreeBSD License
   URL: https://xsgames.co/animatiss
   Twitter: @xsgames_
 ---------------------------------------------- */
-.rotate-scale-up{animation:rotate-scale-up 1s linear both} @keyframes rotate-scale-up{0%{transform:scale(1) rotateZ(0)}50%{transform:scale(2) rotateZ(180deg)}100%{transform:scale(1) rotateZ(360deg)}}
+  .rotate-scale-up {
+    animation: rotate-scale-up 1s linear both;
+  }
+  @keyframes rotate-scale-up {
+    0% {
+      transform: scale(1) rotateZ(0);
+    }
+    50% {
+      transform: scale(2) rotateZ(180deg);
+    }
+    100% {
+      transform: scale(1) rotateZ(360deg);
+    }
+  }
 }
