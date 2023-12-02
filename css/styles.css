@@ -55,7 +55,7 @@ body {
     background-color: var(--primary-color);
     opacity: 25%;
     position: absolute;
-    top: 9em;
+    top: 4.5em;
     z-index: 1;
   }
   h1 {
@@ -105,7 +105,7 @@ body {
     gap: 2em;
   }
 
-  /*CSS main*/
+  /*CSS main index*/
   section {
     display: flex;
     justify-content: center;
@@ -173,6 +173,7 @@ body {
   h3 {
     text-align: center;
     color: var(--primary-color);
+    font-family: var(--h2-typo);
     font-size: 1rem;
     margin: 1em;
   }
@@ -183,6 +184,9 @@ body {
     text-align: left;
     padding: 0 3em;
     margin: 1em 0;
+  }
+  main img:last-child {
+    width: 100%;
   }
   /* CSS página piano */
   /* CSS instrumento piano */
@@ -254,6 +258,42 @@ body {
     
   }
 
+   /* CSS página guitarra */
+  /* CSS instrumento guitarra */
+  .guitarra {
+    display: flex;
+    width: 90vw;
+    margin-bottom: 2em;
+  }
+
+  .cuerda {
+    height: calc(var(--width) * 4);
+    width: var(--width);
+  }
+
+  .arriba {
+    --width: 50px;
+    background-color: white;
+    border: 1px solid #333;
+  }
+
+  .arriba.active {
+    background-color: #ccc;
+  }
+
+  .abajo {
+    --width: 32px;
+    background-color: black;
+    margin-left: calc(var(--width) / -2);
+    margin-right: calc(var(--width) / -2);
+    z-index: 2;
+  }
+
+  .abajo.active {
+    background-color: #333;
+    
+  }
+
 
   .pop-up {
     display: flex;
@@ -286,6 +326,35 @@ body {
       transform: scale(1) rotateZ(360deg);
     }
   }
+
+  /* CSS página instrumentos */
+  .main-instrumentos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ .main-instrumentos img {
+  width: 90%;
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+  box-shadow: 2px 2px 25px 10px rgba(247, 94, 188, 0.2);
+  margin: 1em;
+  position: relative;
+ }
+ .btn-piano{
+  position: absolute;
+  top: 60em;
+ }
+ .btn-guitarra{
+  position: absolute;
+  top: 80.5em;
+ }
+ .btn-bajo{
+  position: absolute;
+  top: 101em;
+ }
+
 }
 
 /* CSS de desktop */
