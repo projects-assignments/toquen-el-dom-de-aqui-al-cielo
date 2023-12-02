@@ -10,17 +10,19 @@
     <header>
       <div class="boxlogo boxmenuhamb">
         <img class="logo" src="../assets/images/LOGO.png" alt="logo" />
-        <!-- <img src="./ASSETS/gg_menu.png" alt="icono hamb" />
-        <img src="./ASSETS/ph_x.png" alt="xs" /> -->
       </div>
-      <nav>
-        <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">INSTRUMENTOS</a></li>
-          <li><a href="#">NOSOTROS</a></li>
-          <li><a href="#">RECURSOS</a></li>
-        </ul>
-      </nav>
+      <input type="checkbox" id="toggle-menu" />
+      <!-- Contenedor del menú -->
+      <div class="menu-container">
+        <!-- Botón de hamburguesa -->
+        <label for="toggle-menu" class="menu-icon"></label>
+        <div id="menu">
+          <div class="menu-item"><a href="../index.html">Home</a></div>
+          <div class="menu-item"><a href="../pages/instruments.html">Instrumentos</a></div>
+          <div class="menu-item"><a href="../pages/about.html">Nosotros</a></div>
+          <div class="menu-item"><a href="../pages/resources.html">Recursos</a></div>
+        </div>
+      </div>
       <div class="pinkheroimage"></div>
       <img
         class="heroimage"

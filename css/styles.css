@@ -45,59 +45,53 @@ body {
 
   #toggle-menu {
     display: none;
-}
-.menu-container {
+  }
+  .menu-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.menu-icon {
+  }
+  .menu-icon {
     font-size: 24px;
     padding: 10px;
-    background-color: #007BFF;
-    color: #fff;
+    background-color: black;
+    color: var(--primary-color);
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
-.menu-icon::before,
-.menu-icon::after {
+  }
+
+  .menu-icon::before,
+  .menu-icon::after {
     content: "";
     display: block;
     height: 3px;
     width: 30px;
-    background-color: #fff;
+    background-color: var(--primary-color);
     margin: 6px 0;
-}
-#menu {
+  }
+  #menu {
     display: none;
     width: 100%;
-    background-color: #007BFF;
-    color: #fff;
+    background-color: black;
+    color: var(--primary-color);
     text-align: center;
-}
-.menu-item {
+    font-family: var(--Text-typo);
+  }
+  .menu-item {
     padding: 10px;
-}
-#toggle-menu:checked + .menu-container #menu {
+  }
+  #toggle-menu:checked + .menu-container #menu {
     display: block;
-}
+  }
+
+  /*Aquí termina el menu nav hambu*/
 
   .heroimage {
     object-fit: cover;
     width: 100%;
     height: 400px;
-    position: relative;
   }
-  /* .pinkheroimage {
-    width: 100%;
-    height: 400px;
-    background-color: var(--primary-color);
-    opacity: 25%;
-    position: absolute;
-    top: 4.5em;
-    z-index: 1;
-  } */
 
   h1 {
     font-family: var(--h1-typo);
@@ -116,9 +110,6 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 6em;
-    position: absolute;
-    top: 10em;
-    z-index: 1;
   }
   span {
     font-family: var(--Text-typo);
@@ -165,36 +156,19 @@ body {
     width: 8em;
     height: 2em;
     background-color: black;
+    border: 2px solid var(--primary-color);
+    margin-bottom: 3em;
+    border-radius: 10px;
+  }
+  button:hover,
+  a:hover {
+    background-color: var(--primary-color);
+    color: black;
+  }
+  a {
+    text-decoration: none;
     color: var(--primary-color);
-    border: 1px solid var(--primary-color);
   }
-  .pianorelative {
-    position: relative;
-  }
-
-  .pianoabsolute {
-    position: absolute;
-    top: 58em;
-  }
-
-  .guitarrelative {
-    position: relative;
-  }
-
-  .guitarabsolute {
-    position: absolute;
-    top: 79em;
-  }
-
-  .bajorelative {
-    position: relative;
-  }
-
-  .bajoabsolute {
-    position: absolute;
-    top: 99.5em;
-  }
-
   h2 {
     font-size: 2rem;
     font-family: var(--h2-typo);
@@ -378,19 +352,6 @@ body {
     border-radius: 10px;
     box-shadow: 2px 2px 25px 10px rgba(247, 94, 188, 0.2);
     margin: 1em;
-    position: relative;
-  }
-  .btn-piano {
-    position: absolute;
-    top: 60em;
-  }
-  .btn-guitarra {
-    position: absolute;
-    top: 80em;
-  }
-  .btn-bajo {
-    position: absolute;
-    top: 100em;
   }
 }
 
