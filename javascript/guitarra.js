@@ -1,5 +1,5 @@
-const cuerda_arriba = ['z', 'x', 'c', 'v']
-const cuerda_abajo = ['s', 'd']
+const cuerda_arriba = ['a', 's', 'd', 'f']
+const cuerda_abajo = ['z', 'x']
 
 const cuerdas = document.querySelectorAll('.cuerda')
 const cuerdasArriba = document.querySelectorAll('.cuerda.arriba')

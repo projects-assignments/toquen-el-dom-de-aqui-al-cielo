@@ -1,5 +1,5 @@
-const cuerda_superior = ["z", "x"];
-const cuerda_inferior = ["s", "d"];
+const cuerda_superior = ["d", "f"];
+const cuerda_inferior = ["c", "v"];
 
 const cuerdas = document.querySelectorAll(".cuerda");
 const cuerdaSuperior = document.querySelectorAll(".cuerda.superior");
