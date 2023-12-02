@@ -12,21 +12,23 @@
         <img class="logo" src="./assets/images/LOGO.png" alt="logo" />
         <!-- <img src="./ASSETS/gg_menu.png" alt="icono hamb" />
         <img src="./ASSETS/ph_x.png" alt="xs" /> -->
-      </div> 
+      </div>
 
       <!-- Crear el menu de navegación -->
 
-      <!-- <div class="hamburger">
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-    <nav>
-        <a href="">Home</a>
-        <a href="">Instrumentos</a>
-        <a href="">Nosotros</a>
-        <a href="">Recursos</a>
-    </nav> -->
+      <input type="checkbox" id="toggle-menu">
+   <!-- Contenedor del menú -->
+   <div class="menu-container">
+       <!-- Botón de hamburguesa -->
+       <label for="toggle-menu" class="menu-icon"></label>
+       <div id="menu">
+           <div class="menu-item">Home</div>
+           <div class="menu-item">Instrumentos 2</div>
+           <div class="menu-item">Nosotros</div>
+           <div class="menu-item">Recursos</div>
+       </div>
+   </div>
+
       <div class="pinkheroimage"></div>
       <img
         class="heroimage"
@@ -45,11 +47,19 @@
       <section>
         <h2>Instrumentos</h2>
         <img class="pianorelative" src="assets/images/PIANO.png" alt="piano" />
-        <button class="pianoabsolute" >Piano</button>
-        <img class="guitarrelative" src="assets/images/GUITARRA.png" alt="guitarra" />
-        <button class="guitarabsolute" >Guitarra</button>
+        <button class="pianoabsolute">
+          <a href="pages/piano.html">Piano</a>
+        </button>
+        <img
+          class="guitarrelative"
+          src="assets/images/GUITARRA.png"
+          alt="guitarra"
+        />
+        <button class="guitarabsolute">
+          <a href="pages/guitarra.html">Guitarra</a>
+        </button>
         <img class="bajorelative" src="assets/images/BASS.png" alt="bajo" />
-        <button class="bajoabsolute">Bajo</button>
+        <button class="bajoabsolute"><a href="pages/bajo.html">Bajo</a></button>
       </section>
       <section class="componentes">
         <h2>Componentes</h2>
