@@ -475,8 +475,7 @@ h3 {
     font-family: var(--h2-typo);
     color: var(--quartenary-color);
     text-align: center;
-    padding: 1.5em;
-    width: 20em;
+    width: 18em;
   }
   .textoheader {
     display: flex;
