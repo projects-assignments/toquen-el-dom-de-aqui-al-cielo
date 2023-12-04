@@ -401,12 +401,6 @@ body {
 .logo {
   width: 15em;
   margin: 3em 0;
-
-
-.hamburger > div {
-  width: 20px;
-  border: 2px solid black;
-  margin-bottom: 3px;
 }
 #toggle-menu {
   display: none;
@@ -592,7 +586,13 @@ h3 {
   margin: 30px auto;
 }
 .laBanda {
-  
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.text-about span{
+  color: var(--primary-color);
 }
 
 /* Página piano */
@@ -625,5 +625,4 @@ h3 {
 
 .black.active {
   background-color: #333;
-}
 }
