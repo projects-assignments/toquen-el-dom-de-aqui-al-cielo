@@ -449,7 +449,7 @@ h1 {
   width: 30em;
   padding-left: 2em;
 }
-p span {
+p .keithRichards {
   font-weight: lighter;
   font-size: 14px;
   font-family: var(--Text-typo);
@@ -462,7 +462,7 @@ p span {
   align-items: flex-start;
   gap: 10em;
   position: absolute;
-  top: 41em;
+  top: 39em;
 }
 h1 span {
   font-size: 6rem;
@@ -529,7 +529,7 @@ a:hover {
   gap: 1em;
   border: 2px solid var(--primary-color);
   border-radius: 20px;
-} 
+}
 .cardComponents img {
   border-radius: 20px 0 0 20px;
 }
@@ -544,7 +544,6 @@ a:hover {
 }
 .texto-card p:first-child {
   margin-bottom: 2em;
-
 }
 div p {
   color: var(--primary-color);
@@ -558,24 +557,37 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-   gap: 3em;
-   margin-top: 3em;
+  gap: 3em;
+  margin-top: 3em;
 }
 address {
   color: var(--primary-color);
 }
 .address {
-display: flex;
-justify-content: space-between;
-align-items: center;
-gap: 20em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20em;
 }
 .footer .rrssImage {
-width: 30em;
-height: 2.5em;
+  width: 30em;
+  height: 2.5em;
 }
 /* CSS nosotros desktop */
-
+h3 {
+  text-align: center;
+  font-family: var(--Text-typo);
+  color: var(--primary-color);
+}
+.text-about {
+  font-family: var(--Text-typo);
+  color: white;
+  width: 60%;
+  margin: 30px auto;
+}
+.laBanda {
+  
+}
 
 /* Página piano */
 .piano {
