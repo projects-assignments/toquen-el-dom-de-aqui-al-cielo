@@ -499,6 +499,10 @@ h3 {
   .address img:first-child {
     width: 4em;
   }
+  address{
+    width: 10em;
+    text-align: center;
+  }
 
   footer {
     display: flex;
@@ -589,6 +593,7 @@ h3 {
     text-align: left;
     padding: 0 3em;
     margin: 1em 0;
+    width: 100%;
   }
   main img:last-child {
     width: 100%;
