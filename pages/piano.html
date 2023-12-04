@@ -18,9 +18,15 @@
         <label for="toggle-menu" class="menu-icon"></label>
         <div id="menu">
           <div class="menu-item"><a href="../index.html">Home</a></div>
-          <div class="menu-item"><a href="../pages/instruments.html">Instrumentos</a></div>
-          <div class="menu-item"><a href="../pages/about.html">Nosotros</a></div>
-          <div class="menu-item"><a href="../pages/resources.html">Recursos</a></div>
+          <div class="menu-item">
+            <a href="../pages/instruments.html">Instrumentos</a>
+          </div>
+          <div class="menu-item">
+            <a href="../pages/about.html">Nosotros</a>
+          </div>
+          <div class="menu-item">
+            <a href="../pages/resources.html">Recursos</a>
+          </div>
         </div>
       </div>
       <div class="pinkheroimage"></div>
@@ -30,7 +36,7 @@
         alt="heroimage"
       />
       <div class="textoheader">
-        <h1>Toquen el DOM</h1>
+        <h1>Toquen el <br /><span>DOM</span></h1>
         <p>
           “Dame una guitarra, dame un piano, dame una escoba y una cuerda; No me
           aburriría en ningún lado” <span>Keith Richards</span>
@@ -40,7 +46,16 @@
     <main>
       <section>
         <h2>Piano</h2>
-        <img src="../assets/images/pianista.png" alt="pianista" />
+        <div class="pop-up blur-in-expand">
+          <h3>Instrucciones de uso</h3>
+          <p>
+            ¡Tu teclado está en Standard A440! Para hacer sonar el instrumento
+            sólo tienes que presionar encima de las teclas para que suene su
+            correspondiente nota: Z = C S = C-SHARP X = D D = D-SHARP C = E V =
+            F G = F-SHARP B = G H = G-SHARP N = A J = A-SHARP M = B
+          </p>
+        </div>
+        <img class="pianista" src="../assets/images/pianista.png" alt="pianista" />
         <h3>Toca tus primeras teclas</h3>
         <!-- piano virtual -->
         <div class="piano">
@@ -73,13 +88,6 @@
         <!-- piano virtual -->
 
         <!-- Pop up -->
-        <div class="pop-up blur-in-expand">
-          <h2>Instrucciones de uso</h2>
-          <p>
-            ¡Tu teclado está en Standard A440! Para hacer sonar el instrumento
-            sólo tienes que presionar encima de las teclas
-          </p>
-        </div>
       </section>
       <!-- Sección niveles Historia usuario 3 -->
       <!-- Sección vídeos Historia usuario 3 -->
@@ -91,8 +99,8 @@
           Calle Pasadena, 3.14 00666 <br />
           Kuzrapali, País de las maravillas
         </address>
+        <img class="rrssImage" src="../assets/images/rrss.png" alt="logorrss" />
       </div>
-      <img src="../assets/images/rrss.png" alt="logorrss" />
       <img src="../assets/images/copyright.png" alt="copyright" />
     </footer>
     <script src="../javascript/piano.js"></script>

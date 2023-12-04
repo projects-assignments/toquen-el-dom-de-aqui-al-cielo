@@ -19,6 +19,364 @@
 body {
   background-color: var(--background-color);
 }
+/* CSS de desktop */
+.boxlogo {
+  width: 15em;
+  margin: 0 auto;
+}
+.logo {
+  width: 15em;
+  margin: 3em 0;
+}
+#toggle-menu {
+  display: none;
+}
+#menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2em;
+  border: 2px solid var(--primary-color);
+}
+#menu .menu-item:nth-child(1n + 2) {
+  border-left: 2px solid var(--primary-color);
+  padding: 1em 0;
+  padding-left: 10em;
+}
+#menu a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-family: var(--h2-typo);
+  font-size: 1.5rem;
+}
+#menu a:hover {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+.heroimage {
+  width: 100%;
+  position: relative;
+}
+
+h1 {
+  font-family: var(--h1-typo);
+  font-size: 4rem;
+  color: var(--background-color);
+  -webkit-text-stroke: 1px var(--primary-color);
+  transform: rotate(5deg);
+  line-height: 2.25em;
+  padding-left: 3em;
+}
+
+.textoheader p {
+  font-family: var(--Text-typo);
+  color: var(--quartenary-color);
+  font-size: 1.25rem;
+  width: 30em;
+  padding-left: 2em;
+}
+p .keithRichards {
+  font-weight: lighter;
+  font-size: 14px;
+  font-family: var(--Text-typo);
+  padding-left: 30em;
+}
+.textoheader {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10em;
+  position: absolute;
+  top: 39em;
+}
+h1 span {
+  font-size: 6rem;
+}
+/* cartas instrumentos */
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3em;
+}
+h2 {
+  font-family: var(--h2-typo);
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  margin: 2em;
+  text-align: center;
+}
+.pianorelative,
+.guitarrelative,
+.bajorelative, .img-instrumentos {
+  object-fit: cover;
+  width: 85%;
+  height: 20em;
+  border-radius: 20px;
+  border: 2px solid var(--primary-color);
+  margin: 3em 0;
+}
+.pianoabsolute,
+.guitarabsolute,
+.bajoabsolute, .btn-piano, .btn-guitarra, .btn-bajo {
+  width: 13em;
+  height: 4em;
+  background-color: var(--background-color);
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+}
+button a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 2rem;
+  font-family: var(--Text-typo);
+}
+button:hover,
+a:hover {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+/* cards componentes */
+.componentes {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2em;
+}
+.cardComponents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+  border: 2px solid var(--primary-color);
+  border-radius: 20px;
+}
+.cardComponents img {
+  border-radius: 20px 0 0 20px;
+}
+.texto-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 10em;
+  border: none;
+  margin: 3em;
+}
+.texto-card p:first-child {
+  margin-bottom: 2em;
+}
+div p {
+  color: var(--primary-color);
+  font-family: var(--Text-typo);
+}
+
+/* CSS footer desktop */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3em;
+  margin-top: 3em;
+}
+address {
+  color: var(--primary-color);
+}
+.address {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20em;
+}
+.footer .rrssImage {
+  width: 30em;
+  height: 2.5em;
+}
+/* CSS nosotros desktop */
+h3 {
+  text-align: center;
+  font-family: var(--Text-typo);
+  color: var(--primary-color);
+  margin: 1.25em;
+}
+
+.text-about {
+  font-family: var(--Text-typo);
+  color: white;
+  width: 60%;
+  margin: 30px auto;
+}
+.laBanda {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.text-about span {
+  color: var(--primary-color);
+}
+
+/* Página piano */
+.pop-up {
+  width: 35em;
+  border: 2px solid var(--primary-color);
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 2px 2px 25px 10px rgba(247, 94, 188, 0.2);
+}
+.pop-up p {
+  color: white;
+}
+.blur-in-expand {
+  animation: blur-in-expand 1s linear both;
+}
+@keyframes blur-in-expand {
+  0% {
+    transform: scale(0);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+.pianista,
+.guitarrista,
+.bajista {
+  width: 35em;
+}
+.piano {
+  display: flex;
+}
+
+.key {
+  height: calc(var(--width) * 4);
+  width: var(--width);
+}
+
+.white {
+  --width: 100px;
+  background-color: white;
+  border: 1px solid #333;
+}
+
+.white.active {
+  background-color: #ccc;
+}
+
+.black {
+  --width: 60px;
+  background-color: black;
+  margin-left: calc(var(--width) / -2);
+  margin-right: calc(var(--width) / -2);
+  z-index: 2;
+}
+
+.black.active {
+  background-color: #333;
+}
+/* página guitarra */
+.guitarra {
+  display: flex;
+  width: 90vw;
+  margin-bottom: 2em;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3em;
+  cursor: pointer;
+}
+
+.cuerda {
+  height: calc(var(--width) * 4);
+  width: var(--width);
+}
+
+.arriba,
+.abajo {
+  --width: 100%;
+  height: 5px;
+  /* background-color: white; */
+  border: 1px solid white;
+}
+
+.arriba.active {
+  background-color: #ccc;
+}
+
+.abajo.active {
+  background-color: #333;
+}
+.shake-vertical:active {
+  animation: shake-vertical 0.8s linear both;
+}
+@keyframes shake-vertical {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    transform: translateY(-8px);
+  }
+  20%,
+  40%,
+  60% {
+    transform: translateY(8px);
+  }
+  80% {
+    transform: translateY(6.4px);
+  }
+  90% {
+    transform: translateY(-6.4px);
+  }
+}
+/* página bajo desktop */
+.bajo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3em;
+  width: 90vw;
+  margin-bottom: 2em;
+  cursor: pointer;
+}
+
+.cuerda {
+  height: calc(var(--width) * 4);
+  width: var(--width);
+}
+
+.superior,
+.inferior {
+  --width: 100%;
+  height: 5px;
+  /* background-color: white; */
+  border: 1px solid white;
+}
+.superior.active {
+  background-color: #ccc;
+}
+/* página css instrumentos desktop */
+.main-instrumentos{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3em;
+
+}
 /* Este media es para version movil */
 @media screen and (max-width: 767px) {
   /* CSS del header */
@@ -391,238 +749,4 @@ body {
     box-shadow: 2px 2px 25px 10px rgba(247, 94, 188, 0.2);
     margin: 1em;
   }
-}
-
-/* CSS de desktop */
-.boxlogo {
-  width: 15em;
-  margin: 0 auto;
-}
-.logo {
-  width: 15em;
-  margin: 3em 0;
-}
-#toggle-menu {
-  display: none;
-}
-#menu {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 2em;
-  border: 2px solid var(--primary-color);
-}
-#menu .menu-item:nth-child(1n + 2) {
-  border-left: 2px solid var(--primary-color);
-  padding: 1em 0;
-  padding-left: 10em;
-}
-#menu a {
-  text-decoration: none;
-  color: var(--primary-color);
-  font-family: var(--h2-typo);
-  font-size: 1.5rem;
-}
-#menu a:hover {
-  background-color: var(--primary-color);
-  color: var(--background-color);
-}
-.heroimage {
-  width: 100%;
-  position: relative;
-}
-
-h1 {
-  font-family: var(--h1-typo);
-  font-size: 4rem;
-  color: var(--background-color);
-  -webkit-text-stroke: 1px var(--primary-color);
-  transform: rotate(5deg);
-  line-height: 2.25em;
-  padding-left: 3em;
-}
-
-.textoheader p {
-  font-family: var(--Text-typo);
-  color: var(--quartenary-color);
-  font-size: 1.25rem;
-  width: 30em;
-  padding-left: 2em;
-}
-p .keithRichards {
-  font-weight: lighter;
-  font-size: 14px;
-  font-family: var(--Text-typo);
-  padding-left: 30em;
-}
-.textoheader {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 10em;
-  position: absolute;
-  top: 39em;
-}
-h1 span {
-  font-size: 6rem;
-}
-/* cartas instrumentos */
-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 3em;
-}
-h2 {
-  font-family: var(--h2-typo);
-  color: var(--primary-color);
-  font-size: 2.5rem;
-  margin: 3em;
-}
-.pianorelative,
-.guitarrelative,
-.bajorelative {
-  object-fit: cover;
-  width: 85%;
-  height: 20em;
-  border-radius: 20px;
-  border: 2px solid var(--primary-color);
-  margin: 3em 0;
-}
-.pianoabsolute,
-.guitarabsolute,
-.bajoabsolute {
-  width: 13em;
-  height: 4em;
-  background-color: var(--background-color);
-  color: var(--primary-color);
-  border: 2px solid var(--primary-color);
-  border-radius: 10px;
-}
-button a {
-  text-decoration: none;
-  color: var(--primary-color);
-  font-size: 2rem;
-  font-family: var(--Text-typo);
-}
-button:hover,
-a:hover {
-  background-color: var(--primary-color);
-  color: var(--background-color);
-}
-/* cards componentes */
-.componentes {
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 2em;
-}
-.cardComponents {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1em;
-  border: 2px solid var(--primary-color);
-  border-radius: 20px;
-}
-.cardComponents img {
-  border-radius: 20px 0 0 20px;
-}
-.texto-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  width: 10em;
-  border: none;
-  margin: 3em;
-}
-.texto-card p:first-child {
-  margin-bottom: 2em;
-}
-div p {
-  color: var(--primary-color);
-  font-family: var(--Text-typo);
-}
-
-/* CSS footer desktop */
-
-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  gap: 3em;
-  margin-top: 3em;
-}
-address {
-  color: var(--primary-color);
-}
-.address {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20em;
-}
-.footer .rrssImage {
-  width: 30em;
-  height: 2.5em;
-}
-/* CSS nosotros desktop */
-h3 {
-  text-align: center;
-  font-family: var(--Text-typo);
-  color: var(--primary-color);
-}
-.text-about {
-  font-family: var(--Text-typo);
-  color: white;
-  width: 60%;
-  margin: 30px auto;
-}
-.laBanda {
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-}
-
-.text-about span{
-  color: var(--primary-color);
-}
-
-/* Página piano */
-.piano {
-  display: flex;
-}
-
-.key {
-  height: calc(var(--width) * 4);
-  width: var(--width);
-}
-
-.white {
-  --width: 100px;
-  background-color: white;
-  border: 1px solid #333;
-}
-
-.white.active {
-  background-color: #ccc;
-}
-
-.black {
-  --width: 60px;
-  background-color: black;
-  margin-left: calc(var(--width) / -2);
-  margin-right: calc(var(--width) / -2);
-  z-index: 2;
-}
-
-.black.active {
-  background-color: #333;
 }
