@@ -380,6 +380,12 @@ h3 {
   align-items: center;
   gap: 3em;
 }
+/* css desktop resources */
+.gif{
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
 /* Este media es para version movil */
 @media screen and (max-width: 767px) {
   /* CSS del header */
