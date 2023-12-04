@@ -110,7 +110,8 @@ h2 {
 }
 .pianorelative,
 .guitarrelative,
-.bajorelative, .img-instrumentos {
+.bajorelative,
+.img-instrumentos {
   object-fit: cover;
   width: 85%;
   height: 20em;
@@ -120,7 +121,10 @@ h2 {
 }
 .pianoabsolute,
 .guitarabsolute,
-.bajoabsolute, .btn-piano, .btn-guitarra, .btn-bajo {
+.bajoabsolute,
+.btn-piano,
+.btn-guitarra,
+.btn-bajo {
   width: 13em;
   height: 4em;
   background-color: var(--background-color);
@@ -369,13 +373,12 @@ h3 {
   background-color: #ccc;
 }
 /* página css instrumentos desktop */
-.main-instrumentos{
+.main-instrumentos {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   gap: 3em;
-
 }
 /* Este media es para version movil */
 @media screen and (max-width: 767px) {
@@ -425,8 +428,12 @@ h3 {
     text-align: center;
     font-family: var(--Text-typo);
   }
-  .menu-item {
+  /* .menu-item {
     padding: 10px;
+  } */
+  #menu .menu-item:nth-child(1n + 2) {
+    padding-left: 0;
+    padding: 10px 0;
   }
   #toggle-menu:checked + .menu-container #menu {
     display: block;
@@ -443,13 +450,27 @@ h3 {
   h1 {
     font-family: var(--h1-typo);
     font-size: 2rem;
-    color: white;
+    color: var(--quartenary-color);
+    padding-left: 0;
+    transform: none;
+    line-height: normal;
+    -webkit-text-stroke:initial
   }
-  p {
+ br{
+    display: contents;
+  }
+  p .keithRichards{
+    padding-left: 0;
+  }
+  h1 span{
+    font-size: 2rem;
+  }
+  .textoheader p {
     font-family: var(--h2-typo);
     color: var(--quartenary-color);
     text-align: center;
     padding: 1.5em;
+    width: 20em;
   }
   .textoheader {
     display: flex;
@@ -457,6 +478,7 @@ h3 {
     justify-content: space-between;
     align-items: center;
     gap: 6em;
+    position: static;
   }
   span {
     font-family: var(--Text-typo);
@@ -466,8 +488,10 @@ h3 {
   /*CSS footer*/
   .address {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 1.5em;
     color: var(--secondary-color);
     font-family: var(--Text-typo);
     text-decoration: none;
@@ -522,7 +546,9 @@ h3 {
     color: var(--primary-color);
     text-align: center;
   }
-
+  .componentes {
+    width: 100%;
+  }
   .componentes > p {
     font-size: 1.5rem;
     color: var(--primary-color);
@@ -530,6 +556,20 @@ h3 {
     border: 1px solid var(--primary-color);
     padding: 0em 6em;
     border-radius: 10px;
+  }
+  .cardComponents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+  .cardComponents img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+  }
+  .texto-card, .texto-card p{
+    margin: 0;
+    padding:0;
   }
   .texto-componentes {
     display: none;
