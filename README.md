@@ -34,15 +34,16 @@ Jira, Figma, Visual Studio Code, Google Fonts, Git, GitHub, Canva, Unsplash, Goo
 
 ## ¿Cómo instalar el proyecto?
 
-<!-- (AQUÍ VA LAS INSTRUCCIONES DE CÓMO INSTALAR Y EL LINK) -->
+Ingresa en el siguiente link para acceder al despliegue:
+
+[Despliegue proyecto](https://toquen-el-dom-de-aqui-al-cielo.vercel.app/)
 
 ## Equipo "DE AQUÍ AL CIELO"
 
 Laura López: Product Owner, Developer 
-Belén A: Scrum Master, Developer
-Jose Alb: Developer 
-Will L: Developer 
-(AQUÍ VA IMAGEN DE GRUPO)
+Belén A Peral: Scrum Master, Developer
+Jose A. Pérez Rego: Developer 
+Wilfredo Liñan: Developer 
 
 
 ## Presentación de proyecto en Slides. 

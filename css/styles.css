@@ -351,6 +351,7 @@ body {
 
 /* CSS de desktop */
 
+
 .hamburger > div {
   width: 20px;
   border: 2px solid black;
@@ -360,6 +361,7 @@ body {
   display: none;
   align-self: end;
 }
+
 
 /* .piano {
   display: flex;
